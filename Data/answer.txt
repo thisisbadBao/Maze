@@ -1,0 +1,71 @@
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+E E   E  s  E     E     E   E   E     E        s    E E     E
+E E E E E E E EEE E EEE E E E E E EEE E EEEEEEE EEE E E EEE E
+E E E   E E   E   E   E   E   E E E  aE E     E E     E E  aE
+E E EEEEE EEEEEEEEEEE EEEEEEEEE E E E E E E E E EEEEEEE E E E
+E  P    E E       E   E   E    aE E E E E E E E     E   E E E
+EEEEEEEEE E EEEEE E EEE E E EEE E E EEE E E EEEEEEE E EEE EEE
+E   E   E E E   E   E E E E E   E E     E E E     E  w  E   E
+E E E E E E EEE EEEEE E E E E EEE EEEEEEEEE E EEE EEEEEEEEE E
+E E   Ew  E    aE     E E  aE E   E  s    E   E E   E      aE
+E EEEEE EEEEEEE E EEE E EEE EEE EEEEE EEE EEE E E EEE EEEEE E
+E E     E       E   E E E   E   E  s  E E   E E E E   E   E E
+E EEEEEEE EEEEEEE EEE E EEE E EEEEE EEE EEE E E E E EEE E EEE
+Ed      E E E     E   E   E E E  s  E  s  E E   E E     E   E
+E EEEEE E E E EEEEE EEEEE E E EEE EEE E EEE EEE E EEEEEEEEE E
+E E  a  E E   E   E     E E E     E   E   E E E E     E   E E
+EEE E EEE E EEE E EEE E E EEEEEEEEE EEEEE E E E EEE EEE E E E
+E   E E   E   E E E   E E  s    E   E   E   E     E E  aE   E
+E EEE E EEEEE EEE E EEE EEE EEEEE EEEEE EEEEEEE EEE E E EEEEE
+Ed  E E   E E   E E E   E E     E E           E E   E E E   E
+E E EEEEE E EEE E E EEE E EEEEE E E EEEEEEEEE EEE EEE EEE E E
+E E       E   E   E   E   E   E   E     E         E   E   E E
+E EEEEEEEEE EEEEE EEE E EEE E EEEEE EEE E EEEEEEEEE EEE EEE E
+E E       E     E   E E E   E     E E   E E       E    w  E E
+E EEEEEEE E E EEEEE E EEE EEE EEE EEE EEE E EEEEE EEEEEEEEE E
+E       E   E     E E       E   E     E   E E  d  E        aE
+EEEEEEE E EEEEE EEE EEEEEEEEEEE EEEEEEEEEEE EEE EEE EEEEEEE E
+E   E   E     E       E   E   E           E   E     E   E   E
+E EEE EEEEEEE EEEEEEEEE E E E EEEEEEEEEEE EEE EEEEEEEEE E EEE
+E E   E   E   E E       E   E           E E   E       E E   E
+E E EEE E E EEE E EEEEEEEEEEEEEEEEEEEEE E E EEE EEEEE E EEE E
+E E E   E E     E       E           E   E E E   E   E E   E E
+E E E E E EEEEE EEEEEEE EEE EEEEEEEEE EEE E E EEE EEE E EEE E
+E E E E E E     E     E   E         E E   E   E   E   E E   E
+E E EEE EEE EEEEE EEEEEEE E EEEEEEE E E EEEEEEE EEE EEE E EEE
+E E   E     E     E     E E   E     E E E       E   E   E E E
+E EEE E EEEEE EEEEE EEE E EEE E EEE E E E EEEEE E EEE E E E E
+E E   E       E   E E E   E   E E   E E   E     E   E E   E E
+E E EEEEEEEEE E E E E EEEEEEEEE E EEE EEEEE EEEEEEE EEE EEE E
+E E         E E E   E           E E   E   E       E   E     E
+E EEEEEEEEE EEE EEEEEEEEEEE EEEEE E EEE E EEEEEEE EEE EEEEE E
+E     E   E E   E           E E   E E   E         E   E   E E
+E EEE E E E E EEEEE EEEEEEEEE E EEE E EEEEEEE EEEEE EEE EEE E
+E E E   E   E E   E     E   E   E     E     E E   E E E   E E
+E E EEEEEEEEE E E EEEEE EEE E EEE EEEEE EEE EEE E E E E E E E
+E   E     E     E     E   E     E   E   E E     Ew  E   E   E
+EEE EEE EEE EEEEEEEEE EEE EEEEEEEEE E EEE EEEEEEE EEEEEEEEE E
+E E   E E   E       E   E E     E   E E         E E   E   E E
+E EEE E E EEEEE EEEEEEE E E EEE E EEE EEEEE E EEE E E E E E E
+E   E E       E E       E E E E E   E     E E E   E E   E E E
+E EEE EEEEEEE E E EEEEEEE E E E EEE EEEEE EEE E EEE EEEEE E E
+E   E       E E E       E     E   E     E E   E   E     E E E
+EEE EEEEEEE E E EEEEEEE EEEEE EEE EEE EEE E EEEEE EEE EEE E E
+E     E   E E         E     E E E     E   E       E E E   E E
+E E EEE E E EEEEEEEEE EEEEE E E EEEEEEE EEEEE EEEEE E E EEE E
+E E E   E E         E   E   E       E  aE   E E     E E   E E
+E EEE EEE EEEEEEEEE EEEEE EEEEEEEEE E E E E E E E EEE EEE E E
+E E   E     E     E       E   E   E E E E E E E E E   E   E E
+E E EEE EEE EEE E EEEEEEEEEEE E E E E EEE E E EEE E EEE EEEEE
+E E E E E       E     E     E E E   E   E E E     E   E     E
+E E E E EEEEEEEEEEE EEE E E E E EEEEEEE E E EEEEEEEEE EEEEE E
+E E   E     E       E   E E   E E     E   E      s  E     E E
+E EEE EEEEE EEEEEEEEE EEE E EEE E EEE EEEEEEEEEEE E EEE EEE E
+E   E   E E E     E   E E E E   E   E   E     E   E   E E   E
+E E EEE E E E EEE E EEE E EEE EEE EEE EEE EEE E EEEEE E E E E
+E E   E E E   E   E E   E   E E   E   E   E E E     E E E E E
+E E EEE E EEEEE EEE E E EEE E EEEEE EEE EEE E EEEEE EEE E EEE
+E E E   E     E   E E E E   E     E         E   E E E  QE   E
+E EEE EEEEE E EEE E EEE E EEEEEEE EEEEEEEEEEE E E E E EEEEE E
+E           E   E       E                     E   E  w    E E
+EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
