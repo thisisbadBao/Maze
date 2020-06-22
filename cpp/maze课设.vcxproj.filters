@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PAINT.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="test_easyx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MAP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NODELIST.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NODE.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MAZE.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="maze课设.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="imgsrc\end.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\player.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\playery.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\orange0.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\orange1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\road1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\root1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\DemonCastle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\DemonCastley.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\DemonCastle1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\DemonCastley2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\DemonCastle3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\DemonCastle2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\menu0.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\menu1.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\menu2.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\menu3.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\gplayer.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\aDemonCastle.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\aDemonCastle1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\aDemonCastle2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\aDemonCastle3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\loading1.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\loading2.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="imgsrc\loading3.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Audio\Bgm\bgm1.mp3" />
+    <Media Include="Audio\Bgm\bgm2.mp3" />
+    <Media Include="Audio\Bgm\bgm3.mp3" />
+    <Media Include="Audio\Bgm\bgm4.mp3" />
+    <Media Include="Audio\Bgm\bgm5.mp3" />
+    <Media Include="Audio\Bgm\bgm6.mp3" />
+    <Media Include="Audio\Bgm\bgm7.mp3" />
+    <Media Include="Audio\Bgm\bgm8.mp3" />
+    <Media Include="Audio\Bgm\bgm9.mp3" />
+    <Media Include="Audio\Bgm\bgm10.mp3" />
+    <Media Include="Audio\Bgm\bgm11.mp3" />
+    <Media Include="Audio\Bgm\bgm12.mp3" />
+    <Media Include="Audio\Bgm\SC_town1.mp3" />
+    <Media Include="Audio\SE\033-Switch02.mp3" />
+  </ItemGroup>
+</Project>

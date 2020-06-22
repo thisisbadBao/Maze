@@ -7,6 +7,7 @@
 #include"resource.h"
 #include <thread>
 #include <mmsystem.h>
+#include <stdio.h> 
 #pragma comment(lib,"winmm.lib")
 
 //将所有函数封装起来，构成核心函数
@@ -20,7 +21,7 @@ MAZE::POINT _end = { 19,19 };   //终点坐标
 int wid = 445;          //进度条原始长度
 char ch;     //键盘消息
 MOUSEMSG m_msg;	// 鼠标消息
-const int gap = 7;   //sleep函数的时间间隔
+const int gap = 5;   //sleep函数的时间间隔
 int cnt0 = 0;
 int cnt = 0;    //计时器
 int timelim = 15;    //计时器时限（任存在问题）
@@ -43,16 +44,6 @@ MAZE::PAINT paint(440, 440, 1, 1);
 int loadcount = 0;
 bool menubgm = 1;   //菜单bgm
 int click = 0; 
-
-
-
-
-void Timer() {
-	while (1) {
-		Sleep(gap);
-		cnt = (cnt + 1) % reload;
-	}
-}
 
 //提取资源文件函数
 bool ExtractResource(LPCTSTR strDstFile, LPCTSTR strResType, LPCTSTR strResName)
@@ -92,6 +83,13 @@ void Click() {
 			DeleteFile(tmpmp3);
 			click = 0;
 		}
+	}
+}
+void Timer() {
+	SYSTEMTIME sys;
+	while (1) {
+		GetLocalTime(&sys);
+		cnt = sys.wMilliseconds% reload;
 	}
 }
 void MAZE::GAME::Bgm() {
@@ -174,8 +172,8 @@ void MAZE::GAME::Bgm() {
 
 void MAZE::GAME::Game()
 {
-	std::thread t(Click);
 	std::thread timer(Timer);
+	std::thread t(Click);
 	initgraph(width, height);
 	BeginBatchDraw();    //批量绘图，防止屏幕闪烁
 
@@ -189,7 +187,8 @@ void MAZE::GAME::Game()
 	loadimage(&img_loading[1], L"PNG", MAKEINTRESOURCE(IDB_PNG31));
 	loadimage(&img_loading[2], L"PNG", MAKEINTRESOURCE(IDB_PNG32));
 	FlushBatchDraw();   //防止屏幕闪烁
-	//正式开始绘制
+	
+						//正式开始绘制
 	Bgm();
 	while (startgame == 0) {
 		FlushBatchDraw();   //防止屏幕闪烁
@@ -202,13 +201,14 @@ void MAZE::GAME::Game()
 		//游戏开始
 		while (startgame) {
 			FlushBatchDraw();   //防止屏幕闪烁
-			if (_kbhit() && findans == 0) {   //获取键盘消息
-				ch = _getch();
-				if (ishit == 1) {
-					cnt0 = cnt;
-				}
-				ishit = 0;
-			}
+			//if (_kbhit() && findans == 0) {   //获取键盘消息
+			//	ch = _getch();     
+			//	//cin.sync();
+			//	if (ishit == 1) {
+			//		cnt0 = cnt;
+			//	}
+			//	ishit = 0;
+			//}
 			if (MouseHit()) {
 				m_msg = GetMouseMsg();
 				_x = m_msg.x;
@@ -227,21 +227,22 @@ void MAZE::GAME::Game()
 			if (iswin && read == 0) {
 				static int told = cnt;
 				static int tgap = 0;
-				int tt = 90; int nn = 3;
-				tgap = (tgap + (cnt - told + reload) % reload) % tt;
+				const int gap = 300;//每300ms更新一次图片
+				const int nn = 3;//在三张图片间进行切换
+				tgap = (tgap + (cnt - told + reload) % reload) % (nn * gap);
 				told = cnt;
-				switch (tgap * nn / tt) {
+				switch (tgap / gap) {
 				case 0: putimage(0, 0, 640, 480, &img_gamebacky, 0, 0, SRCAND);
 					putimage(0, 0, 640, 480, &img_loading[0], 0, 0, SRCPAINT); loadcount++;
 					break;
 				case 1: putimage(0, 0, 640, 480, &img_gamebacky, 0, 0, SRCAND);
 					putimage(0, 0, 640, 480, &img_loading[1], 0, 0, SRCPAINT); loadcount++;
 					break;
-				case 3:putimage(0, 0, 640, 480, &img_gamebacky, 0, 0, SRCAND);
+				case 2:putimage(0, 0, 640, 480, &img_gamebacky, 0, 0, SRCAND);
 					putimage(0, 0, 640, 480, &img_loading[2], 0, 0, SRCPAINT); loadcount++;
 					break;
 				}
-				if (loadcount == 132) {
+				if (loadcount > 132 + rand() % 30) {//假装在加载
 					iswin = 0;
 					loadcount = 0;
 					mx += 2; my += 2; //endx += 2; endy += 2;
@@ -256,13 +257,13 @@ void MAZE::GAME::Game()
 			else if (iswin && read) {
 				iswin = 0;
 			}
-
 		}
+
 	}
 	delete map; map = 0;
 
 	EndBatchDraw();   //防止屏幕闪烁
-	t.join();// timer.join();
+	timer.join(); t.join();
 }
 
 void MAZE::GAME::startGame()

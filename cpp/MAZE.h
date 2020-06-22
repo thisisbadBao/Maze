@@ -9,6 +9,8 @@
 #pragma comment(lib,"winmm.lib")
 #include <thread>
 #include <ctime>
+#include <time.h>  
+#include<stdio.h>
 using namespace std;
 
 class MAZE {                                           //用于保存全部内容
@@ -24,7 +26,7 @@ public:
 	struct ANSWER;                                     //输出答案
 
 	enum KIND { NDEF = 0, ROOT, END, ROAD, WALL };	   //枚举类型，分别指未定义点/起点/终点/路/墙
-	enum DIRECT { RIGHT = 0, LEFT, UP, DOWN };		   //枚举类型，分别指右/左/上/下
+	enum DIRECT { RIGHT, LEFT, UP, DOWN };		   //枚举类型，分别指右/左/上/下
 };
 struct MAZE::ANSWER {
 	NODELIST* trace;
@@ -118,7 +120,7 @@ public:
 	PAINT( int WIDTH, int HEIGHT,int X = 1, int Y = 1) {
 		width = WIDTH+40; height = HEIGHT;
 		x = X; y = Y; face = DOWN;
-		v = 8;
+		v = 10;
 		p_in = { 22 + x * 40, 20 + y * 40 - 30 }; 
 		p_size = {37,56};
 		wal = { 40,40 };
