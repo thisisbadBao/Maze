@@ -1,7 +1,7 @@
 # Maze
 简单的迷宫游戏，c++课设
-![image-20211227105721912](https://gitee.com/thisisbadBao/imgrepo/raw/master/imgrepo1/20211227105722.png)
+![1640574006234](https://gitee.com/thisisbadBao/imgrepo/raw/master/imgrepo1/20211227110051.png)
 
-![image-20211227105705564](https://gitee.com/thisisbadBao/imgrepo/raw/master/imgrepo1/20211227105707.png)
+![1640574027031](https://gitee.com/thisisbadBao/imgrepo/raw/master/imgrepo1/20211227110104.png)
 
-![image-20211227105739689](https://gitee.com/thisisbadBao/imgrepo/raw/master/imgrepo1/20211227105741.png)
+![1640574041673](https://gitee.com/thisisbadBao/imgrepo/raw/master/imgrepo1/20211227110114.png)
